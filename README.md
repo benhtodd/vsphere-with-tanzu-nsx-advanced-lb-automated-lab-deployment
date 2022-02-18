@@ -296,6 +296,7 @@ $vSphereWithTanzuParams = @{
     ClusterName = "Workload-Cluster";
     TanzuContentLibrary = "TKG-Content-Library";
     ControlPlaneSize = "TINY";
+    MgmtNetwork = "<replace>";
     MgmtNetworkStartIP = "172.17.33.190";
     MgmtNetworkSubnet = "255.255.255.0";
     MgmtNetworkGateway = "172.17.33.1";
